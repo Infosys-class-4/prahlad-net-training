@@ -28,11 +28,31 @@
 
 
 
-Person person1 = new();
-person1.name = "Sitaram";
-person1.age = 8;
+// Person person1 = new();
+// person1.name = "Sitaram";
+// person1.age = 8;
 
-string message = person1.GetLegalGreeting();
-Console.WriteLine(message);
+// string message = person1.GetLegalGreeting();
+// Console.WriteLine(message);
+
+
+
+// Assignment 2
+
+class Program
+{
+    public static void Main()
+    {
+        Cars car1 = new();
+        car1.name = "Hyundai";
+        car1.color = "Red";
+        car1.cc = 1200;
+
+        string message = car1.GetCarCc();
+        Console.WriteLine(message);
+
+    }
+}
+
 
 
