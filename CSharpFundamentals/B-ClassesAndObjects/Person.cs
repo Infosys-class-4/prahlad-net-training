@@ -33,22 +33,45 @@
 // Assignment 2
 
 
-class Cars
+// class Cars
+// {
+//     public string name;
+//     public string color;
+//     public int cc;
+
+//     public string GetCarCc()
+//     {
+//         if (cc > 1000)
+//         {
+//             return "Damn!, you have great power";
+//         }
+//         else
+//         {
+//             return "Oops!, you dont have much power";
+
+//         }
+//     }
+// }
+namespace LivingThings;
+class Person
 {
-    public string name;
-    public string color;
-    public int cc;
-
-    public string GetCarCc()
-    {
-        if (cc > 1000)
-        {
-            return "Damn!, you have great power";
-        }
-        else
-        {
-            return "Oops!, you dont have much power";
-
-        }
-    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
