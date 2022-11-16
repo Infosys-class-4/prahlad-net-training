@@ -34,11 +34,28 @@ using System;
         // }
 
 
-        Console.Write("Enter your name: ");
-        string name = Console.ReadLine();
-        string finalName = name.ToUpper();
-        Console.WriteLine(finalName);
+      //   Console.Write("Enter your name: ");
+      //   string name = Console.ReadLine();
+      //   string finalName = name.ToUpper();
+      //   Console.WriteLine(finalName);
 
+         Console.Write("Enter a number: ");
+         var num = Convert.ToInt16(Console.ReadLine());
+
+         if (num % 2 == 0)
+         {
+            Console.WriteLine("It's even number");
+         
+         }
+         else if (num % 3 == 0 && num % 5 == 0)
+         {
+            Console.WriteLine("It's multiple of 3 and 5");
+
+         }
+         else if (num % 3 == 0 )
+         {
+            Console.WriteLine("It's multiple of 3 ");
+         }
 
 
      }
