@@ -1,48 +1,48 @@
-// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+// // See https://aka.ms/new-console-template for more information
+// //Console.WriteLine("Hello, World!");
 
 
-//byte a = 255;
+// //byte a = 255;
 
-// DateTime now = DateTime.Now;
-// Console.WriteLine(now);
-
-
-// Task 1
-
-// string name = "Prahlad";
-// byte age = 21;
-// string weight = "70kg";
-// bool passport = true;
-// string dob = "23rd october 2001";
-// DateTime dob = new DateTime(2001,10,23);
+// // DateTime now = DateTime.Now;
+// // Console.WriteLine(now);
 
 
-// Task 2
+// // Task 1
 
-// Console.WriteLine(name);
-// Console.WriteLine(age);
-// Console.WriteLine(weight);
-// Console.WriteLine(passport);
-// Console.WriteLine(dob);
+// // string name = "Prahlad";
+// // byte age = 21;
+// // string weight = "70kg";
+// // bool passport = true;
+// // string dob = "23rd october 2001";
+// // DateTime dob = new DateTime(2001,10,23);
 
 
+// // Task 2
 
-// Person person1 = new();
-// person1.name = "Sitaram";
-// person1.age = 8;
-
-// string message = person1.GetLegalGreeting();
-// Console.WriteLine(message);
+// // Console.WriteLine(name);
+// // Console.WriteLine(age);
+// // Console.WriteLine(weight);
+// // Console.WriteLine(passport);
+// // Console.WriteLine(dob);
 
 
 
-// Assignment 2
+// // Person person1 = new();
+// // person1.name = "Sitaram";
+// // person1.age = 8;
 
-class Variable
-{
-    void LearnVariables()
-    {
+// // string message = person1.GetLegalGreeting();
+// // Console.WriteLine(message);
+
+
+
+// // Assignment 2
+
+// class Variable
+// {
+//     void LearnVariables()
+//     {
         
-    }
-}
+//     }
+// }
