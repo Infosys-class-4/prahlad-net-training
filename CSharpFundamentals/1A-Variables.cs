@@ -1,6 +1,13 @@
 // // See https://aka.ms/new-console-template for more information
 // //Console.WriteLine("Hello, World!");
 
+class Variable
+{
+    public void LearnVariables()
+    {
+        
+    }
+}
 
 // //byte a = 255;
 
