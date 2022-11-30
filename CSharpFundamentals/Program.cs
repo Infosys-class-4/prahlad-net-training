@@ -25,27 +25,45 @@ class Program
 
         double[] numbers = {0.1,1.1, 25.3, 65, 22, 999, 1234};
         var(average,minimum)=m.CalculateAverageAndMinimun(numbers);
-        Console.WriteLine($"Average is: = {average}  Minimum is: = {minimum}");
+        //Console.WriteLine($"Average is: = {average}  Minimum is: = {minimum}");
 
         Person a = new();
-        var name = a.Name("Prahlad", "Shakya");
-        Console.WriteLine("Your Full Name is: " + name);
+        var name = a.GetName("Prahlad", "Shakya");
+        //Console.WriteLine("Your Full Name is: " + name);
 
         var name1 = a.AddName("Ram","Hari");
-        Console.WriteLine("Your Full Name is: " + name1);
+        //Console.WriteLine("Your Full Name is: " + name1);
 
-        //string[] details = {"Prahlad", "Bhaisepati"};
         var (nam,address) = a.GetNameAddress("Prahlad","aa");
-        Console.WriteLine("Your name is: " + nam + "   Your address is: " + address);
+        //Console.WriteLine("Your name is: " + nam + "   Your address is: " + address);
+
+
+        //Employee emp = new();
         
+        //var hyundai = new Car("venue","Red");
 
+        // var puppy = new Animal("dog",4);
 
+        // var x = puppy.category;
+        // var l = puppy.numberOfLegs;
 
+        House House1 = new House(4,40);
+        House1.Length = 36.6f;
+        House1.Width = 26.6f;
+        var chatAreaHouse1 = House1.GetAreaOfChat();
+        //Console.WriteLine("The area of chat of House1 is: " + chatAreaHouse1);
 
+        House House2 = new House(50,400, 46.6f, 36.6f);
+        var chatAreaHouse2 = House2.GetAreaOfChat();
+        //Console.WriteLine("The area of chat of House2 is: " + chatAreaHouse2);
 
-
-
+        Collection coll = new Collection();
+        coll.LearnList();
+        coll.LearnDictionary();
+    
     }
+
+    
 
 }
 

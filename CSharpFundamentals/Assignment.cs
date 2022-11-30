@@ -1,6 +1,6 @@
 class Person
 {
-    public string Name(string firstName, string lastName)
+    public string GetName(string firstName, string lastName)
     {
         string fullName = firstName + lastName;
         return fullName;
