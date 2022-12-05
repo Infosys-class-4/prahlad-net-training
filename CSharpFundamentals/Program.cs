@@ -60,6 +60,11 @@ class Program
         Collection coll = new Collection();
         coll.LearnList();
         coll.LearnDictionary();
+
+        LINQ lin = new LINQ(); 
+        lin.Test();
+        lin.Assignment();
+        
     
     }
 
