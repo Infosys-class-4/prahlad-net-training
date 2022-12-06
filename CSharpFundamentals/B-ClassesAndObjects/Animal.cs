@@ -1,11 +1,11 @@
-// namespace LivingThings;
-// class Animal
-// {
-//     string category;
-//     string scientificName;
-//     byte numberOfLegs;
-//     bool domestic = false;
+namespace LivingThings;
+public class Animal
+{
+    string category;
+    string scientificName;
+    public byte numberOfLegs;
+    public bool domestic = false;
     
 
-// }
+}
 
