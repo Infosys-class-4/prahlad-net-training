@@ -3,52 +3,97 @@
 
 <head>
     <title> First Page</title>
+    <link rel="stylesheet" href="person.css"/>
 </head>
 
 <Body>
     <p> Hello!!!! </p>
     <p> I am learning web development. </p>
-            
-         <!-- Create a list of vegetables -->
-        <p> List of Vegetables</p>
-            <ol>
-                <li>Onion</li>
-                <li>Tomato</li>
-                <li>Potato</li>
-                <li>Lady's Finger</li>
-                <li>Peas</li>
-                <li>Mushroom</li>
-                <li>Spinach</li>
-            </ol>
 
-        <!-- Create a table to show multiple details -->
-        <p>List of People</p>
-        <table border="1"> 
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Age</th>
-                <th>Phone Number</th>
-            </tr>
-            <tr>
-                <td>Prahlad</td>
-                <td>Shakya</td>
-                <td>21</td>
-                <td>9841555195</td>
-            </tr>
-            <tr>
-                <td>Ram</td>
-                <td>Sharma</td>
-                <td>30</td>
-                <td>9876543210</td>
-            </tr>
-            <tr>
-                <td>Shyam</td>
-                <td>Sharma</td>
-                <td>40</td>
-                <td>9876555432</td>
-            </tr>
-        </table>
+    <!-- CSS => Cascading Style Sheet -->
+
+    <!-- Create a list of vegetables -->
+    <p> List of Vegetables</p>
+    <ol>
+        <li>Onion</li>
+        <li>Tomato</li>
+        <li>Potato</li>
+        <li>Lady's Finger</li>
+        <li>Peas</li>
+        <li>Mushroom</li>
+        <li>Spinach</li>
+    </ol>
+
+    <!-- Create a table to show multiple details -->
+    <p>List of People</p>
+    <table border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>Prahlad</td>
+            <td>Shakya</td>
+            <td>21</td>
+            <td>9841555195</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>Sharma</td>
+            <td>30</td>
+            <td>9876543210</td>
+        </tr>
+        <tr>
+            <td>Shyam</td>
+            <td>Sharma</td>
+            <td>40</td>
+            <td>9876555432</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <label class="label-style">Name:</label>
+        <input type="text" placeholder="Enter Your Name" />
+        <br>
+
+        <label class="label-style">Password</label>
+        <input type="password" />
+        <br>
+
+        <label class="label-style">Date Of Birth</label>
+        <input type="date" />
+        <br>
+
+        <label class="label-style">Your Bio</label>
+        <textarea>Enter your bio here..</textarea>
+        <br>
+
+        <label>Gender: </label>
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female
+        <input type="radio" name="gender" />Others
+        <br>
+
+        <label>Your Country: </label>
+        <select>
+            <option>Nepal</option>
+            <option>India</option>
+            <option>China</option>
+            <option>Bhutan</option>
+        </select>
+        <br>
+
+        <label>Education</label>
+        <input type="checkbox" />High School
+        <input type="checkbox" />Undergraduate
+        <input type="checkbox" />Graduate
+        <input type="checkbox" />Post Doc
+        <br>
+
+        <input class="label-style" type="Submit" value="Save Details"/>
+    </form>
 </Body>
 
 </html>
